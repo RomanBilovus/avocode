@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Sample Form</h1>
+        <nav>
+            <a href="index.html"> To Home > </a>
+        </nav>
+    </header>
+
+    <form method="POST" action="https://formspree.io/romatuk@ukr.net">
+        <label>
+            Name
+            <input type="text" placeholder="Name" name="name">
+        </label>
+        <br>
+        <label form="email">Email</label>
+        <input type="email" placeholder="email" id="email" name="email">
+        <br>
+        <label>Gender</label>
+        <label>
+            <input type="radio" name="gender" value="male">Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other">Other
+        </label>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
